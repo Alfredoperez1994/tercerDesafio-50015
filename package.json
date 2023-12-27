@@ -1,8 +1,19 @@
 {
+  "name": "primer-desafio",
+  "version": "1.0.0",
+  "description": "desafios backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "perez alfredo",
+  "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.2"
   },
   "dependencies": {
     "express": "^4.18.2"
   }
+  
 }
